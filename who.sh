@@ -20,8 +20,10 @@ if [ $age -lt 13 ]; then
     category="Child"
 elif [ $age -ge 13 ] && [ $age -le 19 ]; then
     category="Teenager"
-else
+elif [ $age -ge 20 ] && [ $age -le 60 ]; then
     category="Adult"
+else
+    category="Oldage"
 fi
 
 # Net salary after tax
