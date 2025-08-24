@@ -1,6 +1,6 @@
 #!/bin/bash
-default_username="admin"
-default_password="secret"
+default_username="developer"
+default_password="fireflink123"
 
 echo "Enter username:"
 read username
